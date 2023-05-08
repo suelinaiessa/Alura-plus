@@ -16,5 +16,21 @@
     }
 
     .principal{
-        background-image: url("img/Backround.png");
+        background-image: url("Background.png");
+        background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    }
+
+    .conteiner_botao {
+      background-color: var(--botao-azul);
+      border-radius: 5px;
+      padding: 1em;
+      color: var(--branco-principal);
+      display: block;
     }
